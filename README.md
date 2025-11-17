@@ -1,14 +1,11 @@
 
 # TagDust2 (Maintained Fork)
 
-This repository is a maintained continuation of the original TagDust2 software created by Timo Lassmann.  
-The goal of this fork is to ensure that TagDust2 remains buildable and usable on modern systems and compilers.  
-All scientific credit for the underlying method belongs to the original author.  
-The original project is no longer actively maintained, so this fork provides fixes, compatibility updates, and packaging support (for example, Bioconda).
+This repository is a maintained continuation of the original TagDust2 software created by Timo Lassmann, which appears to no longer be actively maintained.  
+The goal of this fork is to ensure that TagDust2 remains buildable and can hopefully be packaged in Bioconda.
+All scientific credit for the underlying method belongs to the original author.
+ 
 
-The original README is included below unchanged except for this note.
-
----
 
 # Introduction
 
@@ -20,7 +17,7 @@ barcode and fingerprint (UMI) sequences. TagDust2 is designed to make it as easy
 TagDust2 allows users to specify the expected architecture of a read and converts it into a hidden
 Markov model. This enables accurate assignment of sequences to a particular barcode (or index) even in the presence of sequencing errors. Sequences not matching the expected architecture (primer dimers, contaminants etc.) are automatically discarded.
 
----
+ 
 
 # Installation
 
@@ -41,13 +38,13 @@ At this point the TagDust executable appears in the src directory. You can copy 
 make install
 ```
 
----
+ 
 
 # Manual
 
 The user manual is located in the doc directory.
 
----
+ 
 
 # Please cite
 
@@ -55,13 +52,10 @@ Lassmann, Timo. "TagDust2: a generic method to extract reads from sequencing dat
 BMC Bioinformatics 16.1 (2015): 24.
 [https://doi.org/10.1186/s12859-015-0454-y](https://doi.org/10.1186/s12859-015-0454-y)
 
----
+ 
 
 # Fork maintainer
-
-Maintainer: Arash
-Email: hello@aradar.top
-This fork applies fixes for modern compilers, updated build systems, and packaging support.
+Email: hello@aradar.top 
  
 
  
