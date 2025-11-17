@@ -32,14 +32,14 @@
  *
  *
  */
-unsigned int nuc_code[256];
+extern unsigned int nuc_code[256];
 
 /**
  * @brief Converts 0-5 nucleotides into printable ASCII to.
  *
  *
  */
-unsigned int rev_nuc_code[5];
+extern unsigned int rev_nuc_code[5];
 
 int init_nuc_code(void);
 

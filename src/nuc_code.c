@@ -38,6 +38,8 @@
 #include "tagdust2.h"
 #include "nuc_code.h"
 
+unsigned int nuc_code[256];
+unsigned int rev_nuc_code[5];
 
 /** \fn void init_nuc_code()
  \brief Initializes nucleotide conversion arrays. 
