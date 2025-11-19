@@ -29,15 +29,13 @@ cd tagdust
 ./autogen.sh
 ./configure
 make
-make check
 ````
 
-At this point the TagDust executable appears in the src directory. You can copy it to any directory in your path. To install it system wide type:
+At this point the TagDust executable appears in the src directory. You can copy it to any directory in your path. To install it via conda:
 
 ```bash
-make install
-```
-
+conda install bioconda::tagdust2
+````
  
 
 # Manual
@@ -55,7 +53,8 @@ BMC Bioinformatics 16.1 (2015): 24.
  
 
 # Fork maintainer
-Email: hello@aradar.top 
+- aradar46
+- Email: hello@aradar.top 
  
 
  
